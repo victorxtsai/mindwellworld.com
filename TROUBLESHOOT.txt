@@ -1,0 +1,41 @@
+Clean install
+Vite + React + Tailwind CSS 4.0
+
+npm create vite@latest .
+npm install tailwindcss @tailwindcss/vite
+
+
+
+Git steps for MASTER BRNACH
+git status
+git add -A
+git commit -m "INITIAL CLEAN INSTALL OF Vite + React + Tailwind CSS 4.0"
+git push
+
+
+git status
+git add -A
+git commit -m "20250408 - MASSIVE CODE CLEAN UP"
+git push
+
+
+git steps for NEWLY CREATED BRANCH
+git checkout -b CosmicSerenity20250216
+git branch --show-current
+git status
+git add -A
+git commit -m "CosmicSerenity20250216"
+git push -u origin CosmicSerenity20250216
+
+
+-- Notes
+uSE npx expo-doctor
+actually pay attention to allerts
+make sure react-native-reanimated is right version --> also prevents app from starting up but at least you get error message
+make sure react-native-gesture handler is right version
+make sure react-native-confetti is not used as it's not validated by expo -> this prevents app from starting up and you get no error message
+
+Even though "react-native-viewpager": "^0.2.13" is not updated, must install for top tabs to work
+
+
+adb logcat *:S ReactNative:W ReactNativeJS:W
