@@ -1,5 +1,5 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, BookOpenIcon, SparklesIcon, ChartBarIcon, FaceSmileIcon } from '@heroicons/react/24/outline'
-
+import { BookOpenIcon, SparklesIcon, ChartBarIcon, FaceSmileIcon } from '@heroicons/react/24/outline'
+// ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, 
 const features = [
   {
     name: 'Thought provoking journal prompts',

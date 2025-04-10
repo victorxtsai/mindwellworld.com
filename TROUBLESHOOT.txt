@@ -21,3 +21,6 @@ git push
 
 View Website
 npm run dev
+
+Build Website
+npm run build
