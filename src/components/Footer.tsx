@@ -3,8 +3,8 @@ const navigation = {
     main: [
       { name: 'App', href: 'https://www.mindwell.io' },
       { name: 'Mel AI', href: 'https://mel.mindwell.io' },
-      { name: 'Mission', href: '#/mission' },
-      { name: 'Privacy', href: '#/privacy' },
+      { name: 'Mission', href: '/mission' },
+      { name: 'Privacy', href: '/privacy' },
       { name: 'Contact', href: 'mailto:support@mindwell.io' },
     ],
 
