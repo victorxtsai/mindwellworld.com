@@ -4,9 +4,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '@/src/assets/logo.svg?react';
 
 const navigation = [
-  { name: 'Mel AI', href: '#' },
-  { name: 'Features', href: '/#features' },
-  { name: 'Plans', href: '/#subscriptions' },
+  { name: 'App', href: 'https://www.mindwell.io' },
+  { name: 'Mel AI', href: 'https://mel.mindwell.io' },
 ]
 
 export default function Header() {
@@ -63,11 +62,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Mindwell</span>
-              <img
-                alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+              <Logo className="h-8 w-auto text-[#16F4D0]" />
             </a>
             <button
               type="button"

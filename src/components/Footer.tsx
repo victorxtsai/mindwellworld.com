@@ -1,10 +1,10 @@
 const navigation = {
     // add or remove links here - only thing you need to do
     main: [
+      { name: 'App', href: 'https://www.mindwell.io'},
       { name: 'Mel AI', href: 'https://mel.mindwell.io'},
-      { name: 'Mission', href: 'https://www.mindwellworld.com/mission' },
-      { name: 'Privacy', href: 'https://www.mindwellworld.com/mission' },
-      { name: 'Terms', href: '/terms' },
+      { name: 'Mission', href: '/mission' },
+      { name: 'Privacy', href: '/privacy' },
       { name: 'Contact', href: 'mailto:support@mindwell.io' },
     ],
 

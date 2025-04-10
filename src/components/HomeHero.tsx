@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function HomeHero() {
   return (
     <>
       {/* Top gradient blob */}
@@ -16,32 +16,16 @@ export default function Hero() {
       </div>
 
       {/* Text content */}
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div className="text-center">
-        <h1 className="text-9xl text-[#16F4D0]" style={{ fontFamily: 'DefaultFont'}}>
-          Mindwell
+      <div className="relative mx-auto flex min-h-screen max-w-2xl flex-col items-center justify-center px-4 text-center">
+        <h1
+          className="text-[clamp(1.5rem,6vw,5rem)] text-[#16F4D0] leading-none"
+          style={{ fontFamily: 'DefaultFont' }}
+        >
+          Mindwell World
         </h1>
-          <p className="mt-3 text-xl font-medium text-[#16F4D0] sm:text-2xl"  style={{ fontFamily: 'DefaultFont'}}>
-            Journal and Mood Tracker
-          </p>
-          <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
-          Start your mental wellness journey today with the Mindwell mobile app. Download from one of the places below.
-          </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              className="rounded-md bg-[#2F52E0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-[#1098F7] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Apple Store
-            </a>
-            <a
-              href="#"
-              className="rounded-md bg-[#2F52E0] px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-[#1098F7] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Google Play
-            </a>
-          </div>
-        </div>
+        <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
+          Our mission is to bring humanity forward by improving the overall level of mental wellness across the world. We believe that this will lead to a higher quality of life for each and every individual and foster stronger relationships with one's self, family, colleagues, friends, and loved ones.
+        </p>
       </div>
 
       {/* Bottom gradient blob */}
@@ -58,5 +42,5 @@ export default function Hero() {
         />
       </div>
     </>
-  )
+  );
 }

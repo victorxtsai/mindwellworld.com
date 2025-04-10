@@ -24,3 +24,4 @@ npm run dev
 
 Build Website
 npm run build
+npm run deploy

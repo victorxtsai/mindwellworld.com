@@ -1,8 +1,6 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Hero from '../components/Hero'
-import Features from '../components/Features'
-import Subscriptions from '../components/Subscriptions';
+import HomeHero from '../components/HomeHero'
 import { useEffect } from 'react';
 
 export default function Home() {
@@ -23,9 +21,7 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-br from-[#2F52E0] via-[#000000] to-[#000000]">
       <Header />
-      <Hero / >
-      <Features / >
-      <Subscriptions />
+      <HomeHero / >
       <Footer />        
     </div>
   )
