@@ -2,7 +2,13 @@ import { useState } from 'react'
 import { Radio, RadioGroup } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/20/solid'
 
-const frequencies = [
+type FrequencyOption = {
+  value: 'monthly' | 'annually';
+  label: string;
+  priceSuffix: string;
+};
+
+const frequencies: FrequencyOption[] = [
   { value: 'monthly', label: 'Monthly', priceSuffix: '/month' },
   { value: 'annually', label: 'Annually', priceSuffix: '/year' },
 ]
@@ -67,7 +73,7 @@ const tiers = [
   },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: (string | false | null | undefined)[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
