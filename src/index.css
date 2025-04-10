@@ -1,1 +1,11 @@
+/* Add this at the top: your font-face definitions */
+@font-face {
+    font-family: 'DefaultFont';
+    src: url('/fonts/DefaultFont.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+/* Then import Tailwind after */
 @import "tailwindcss";
