@@ -45,6 +45,15 @@ const navigation = {
           </svg>
         ),
       },
+      {
+        name: 'TikTok',
+        href: 'https://www.tiktok.com/', // replace with your actual TikTok URL
+        icon: (props: React.SVGProps<SVGSVGElement>) => (
+          <svg fill="currentColor" viewBox="0 0 48 48" {...props}>
+            <path d="M41 16.46a12.6 12.6 0 01-6.96-2.12v13.48a11.97 11.97 0 11-13.72-11.86v5.94a6.05 6.05 0 00-4.04 5.67c0 3.34 2.71 6.05 6.05 6.05a6.05 6.05 0 006.05-6.05V6h5.67a6.85 6.85 0 006.95 6.94v5.52z" />
+          </svg>
+        ),
+      }
     ],
   }
   
