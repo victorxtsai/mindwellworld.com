@@ -305,7 +305,7 @@ const faqs = [
 
 export default function Privacy() {
   return (
-    <div className="bg-gradient-to-br from-[#2F52E0] via-[#000000] to-[#000000]">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-[#2F52E0] via-[#000000] to-[#000000]">
       <Header />
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl">
